@@ -8,3 +8,4 @@ description = "Write phonetic transcriptions using the IPA."
 keywords = ["IPA", "phonetics", "phonology", "linguistics", "transcription", "symbols"]
 categories = ["components", "text", "languages"]
 disciplines = ["linguistics"]
+exclude = ["ipa-chart/", "manual/"]

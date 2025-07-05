@@ -1,7 +1,7 @@
 /// Module providing symbols and functions for working with the International Phonetic Alphabet.
 
-#import "./sym.typ"
-#import "./diac.typ"
+#import "sym.typ"
+#import "diac.typ"
 #import "_trans.typ": ipatext, ipabody
 
 #let text(body, delim: "") = {

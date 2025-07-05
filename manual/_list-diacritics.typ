@@ -8,7 +8,7 @@
 /// Definitions included: 52
 
 #import "../src/lib.typ" as ipa
-#import "./_display-layouts.typ": display-diac
+#import "_display-layouts.typ": display-diac
 
 
 == Phonation

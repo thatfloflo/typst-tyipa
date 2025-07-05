@@ -1297,7 +1297,7 @@ Next to each entry's illustration is shown:
   ]
 ]
 
-#include "./_list-diacritics.typ"
+#include "_list-diacritics.typ"
 
 = License
 
