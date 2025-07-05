@@ -15,7 +15,3 @@
     ipabody(body, delim: delim)
   }
 }
-
-hello
-
-#"hello-world".split("").map(c => c + "x").join("")

@@ -1,7 +1,7 @@
 [package]
 name = "tyipa"
 version = "0.1.0"
-entrypoint = "lib.typ"
+entrypoint = "src/lib.typ"
 authors = ["Florian Breit <florian@florian.me.uk>"]
 license = "MIT"
 description = "Write phonetic transcriptions using the IPA."

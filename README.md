@@ -53,4 +53,10 @@ principal components that get imported from TyIPA:
 For detailed instructions and a comprehensive listing of all the symbols and
 diacritics available, see the [TyIPA Manual available on the GitHub repo](./manual/manual.pdf).
 
-There is also a re-implementation of the 2015 IPA Chart in Typst [here](./ipa-chart.pdf) ([source](./ipa-chart.typ)).
+There is also a re-implementation of the 2015 IPA Chart in Typst [here](./ipa-chart/ipa-chart.pdf)
+([source](./ipa-chart/ipa-chart.typ)).
+
+# License
+
+TyIPA is free and open-source software, licensed under the MIT License.
+See the [`LICENSE` file on the GitHub repo](./LICENSE) for more information.
