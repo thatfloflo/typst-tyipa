@@ -948,7 +948,7 @@ Next to each symbol is shown:
 #display-sym(ipa.sym.eth, "Lower-case eth", "eth")
 #display-sym(ipa.sym.eth.raised, "Superscript lower-case eth", "eth.raised")
 
-#display-sym(ipa.sym.ezh, "Lower-case ezh", "esh")
+#display-sym(ipa.sym.ezh, "Lower-case ezh", "ezh")
 #display-sym(ipa.sym.ezh.raised, "Superscript lower-case ezh", "ezh.raised")
 #display-sym(ipa.sym.ezh.tail.curly, "Curly-tail lower-case ezh", "ezh.raised.tail.curly", note: [Obsolete])
 
