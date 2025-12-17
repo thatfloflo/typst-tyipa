@@ -22,7 +22,7 @@ encode its own IPA characters to plug any gaps of fix problems with fonts.
 Import and start using TyIPA as follows:
 
 ```typst
-#import "@preview/tyipa:0.1.0" as ipa
+#import "@preview/tyipa:0.1.1" as ipa
 
 Are you a #ipa.text[
   stress-mark.secondary f o upsilon n schwa stress-mark t I esh schwa n

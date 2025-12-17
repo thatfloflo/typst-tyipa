@@ -247,7 +247,7 @@ To start using #pkg, import it in your Typst project:
 
 #example[
 ```typst
-#import "@preview/tyipa:0.1.0" as ipa
+#import "@preview/tyipa:0.1.1" as ipa
 
 The IPA symbol for a voiceless velar nasal is
 #highlight(
@@ -266,7 +266,7 @@ The IPA symbol for a voiceless velar nasal is
 ]
 
 Note: You should always import #pkg at the module level as shown above
-(rather than e.g. ```typst #import "@preview/tyipa:0.1.0":*```) because this
+(rather than e.g. ```typst #import "@preview/tyipa:0.1.1":*```) because this
 avoids name collisions that would mean that #pkg shadows items from the
 standard library. *This manual assumes that you've imported the whole module and
 aliased it to _`ipa`_ as illustrated above.*
