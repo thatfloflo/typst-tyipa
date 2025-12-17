@@ -119,8 +119,10 @@
 
 
 // General idea but tricky to handle whitespace that way, because typst seems to already collapse "  " to " " etc. before the show rule applies..
-#let ipabody(content, delim: none) = [
+#let ipabody(content, delim: none) = {
   //#show regex("[\sa-zA-Z0-9.\-()]+"): it => "[" + ipatext(it.at("text")) + "]"
-  #show regex("[\s\S]+"): it => ipatext(it.at("text"), delim: delim)
-  #content
-]
+  [
+    #show regex("[\s\S]+"): it => ipatext(it.at("text"), delim: delim)
+    #content
+  ] + sym.zws
+}
